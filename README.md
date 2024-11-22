@@ -1,1 +1,0 @@
-# carcassrose.com# fotomatic
