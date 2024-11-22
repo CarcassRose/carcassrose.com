@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    height: 3.5rem;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+}
+
+.logo img {
+    height: 2.5rem;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 0.5rem;
+    list-style: none;
+}
+
+
+
+.menu {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 3.5rem;
+}
+
+/* Banner */
+.banner-section {
+    background-image: url(./images/img-mission-background.webp);
+    background-size: cover;
+    margin: 0rem 2rem;
+    height: 35rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-position: center;
+}
+
+.title-text {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+/* Tea of the Month */
+.tea-section {
+    padding: 3rem 0rem;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50rem;
+    justify-content: center;
+    margin: auto;
+}
+
+.img-card {
+    margin: 0.5rem;
+}
+
+.img-card img {
+    height: 10rem;
+    width: 15rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Location */
+.location-section {
+    background-image: url(./images/img-locations-background.webp);
+    background-size: cover;
+    height: 25rem;
+    margin: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+}
+
+#location h2 {
+    background-color: transparent;
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding-bottom: 1rem;
+}
+
+.loc-card {
+    width: 15rem;
+    height: 13rem;
+    margin: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    opacity: 1;
+}
+
+/* Footer */
+.contact-section {
+    height: 10rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 1rem;
+    height: 3rem;
+    padding: 1rem 0rem;
+}
